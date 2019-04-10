@@ -3,7 +3,7 @@ INVENTORY = [["A0001", 12.99], ["A0002", 3.99], ...]
 
 class Basket: #Class
     def __init__ (self, new, scan, total):
-        self.new = new_basket
+        self.new = basket
         self.scan = content_basket
         self.total = total_basket
     
@@ -23,5 +23,4 @@ class Basket: #Class
             new_total = self.total - discount
             return new_total
 
-#30minute timestamp
 
