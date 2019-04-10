@@ -7,6 +7,7 @@ class Basket: #Class
         self.scan = content_basket
         self.total = total_basket
     
+    
     def voucherone(self): #buyonegetonefree
         if self.new == 3:
             new_value = self.total =-1 
@@ -22,5 +23,5 @@ class Basket: #Class
             new_total = self.total - discount
             return new_total
 
-
+#30minute timestamp
 
